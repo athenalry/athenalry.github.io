@@ -1,12 +1,3 @@
-/*========================================================================
-EXCLUSIVE ON themeforest.net
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Template Name   : Keira
-Author          : mital_04
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Copyright (c) 2018 - mital_04
-========================================================================*/
-
 /*----------------------------------
 Table of contents
 01. Loading
@@ -29,8 +20,22 @@ Table of contents
 ----------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+#social , #btns{
+	list-style: none;
+  padding-top: 15px;
+  text-align: center;
+  }
 
+#social li , #btns li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
+}
 
+.social-icons{
+  color: #E565B8;
+}
 /*---------------------------------
 * 01. Loading
 -----------------------------------*/
@@ -108,11 +113,11 @@ body {
   font-smoothing: antialiased;
   font-size: 14px;
   line-height: 1.5;
-  color: #666666;
+  color: #292929;
 }
 
 img {
-  max-width: 100%;
+  max-width: 80%;
 }
 
 .section {
@@ -266,7 +271,7 @@ img {
 
 .m-btn-theme:hover {
   color: #fff;
-  background: #151515;
+  background:#fdbcdd;
 }
 
 .m-btn-h-white:hover {
@@ -1141,7 +1146,7 @@ div#particles-box {
  .aboutus-text span {
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
   margin-bottom: 15px;
@@ -1153,7 +1158,7 @@ div#particles-box {
   font-size: 36px;
  }
  .aboutus-text p {
-  color: #878787;
+  color: #292929;
   font-size: 14px;
   width: 500px;
   max-width: 100%;
