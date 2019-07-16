@@ -18,13 +18,25 @@ Table of contents
 17. footer
 
 ----------------------------------*/
-
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+.myexp{
+  background: #E565B8;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  font-weight: bold
+}
 #social , #btns{
 	list-style: none;
   padding-top: 15px;
   text-align: center;
   }
+  
+#socials li  {
+  display: inline-block;
+  text-align: right;
+}
 
 #social li , #btns li {
   display: inline-block;
@@ -32,7 +44,16 @@ Table of contents
   padding-right: 10px;
   text-align: left;
 }
-
+.social-icons-negative{
+  color: #ffffff;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 10px;
+  
+}
+.social-icons-meow{
+  padding: 0px;
+}
 .social-icons{
   color: #E565B8;
 }
@@ -2104,8 +2125,8 @@ div#particles-box {
 -----------------------------------------*/
 
 .footer {
-  background: #151515;
-  padding: 60px 0;
+  background: #E565B8;
+  padding: 40px 0;
   text-align: center;
 }
 
