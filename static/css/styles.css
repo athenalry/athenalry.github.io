@@ -1,5 +1,4 @@
 
-
 /*----------------------------------
 Table of contents
 01. Loading
@@ -26,7 +25,7 @@ Table of contents
   background: #E565B8;
   text-align: center;
   color: #fff;
-  padding: 20px;
+  padding: 40px;
   font-weight: bold
 }
 #social , #btns{
@@ -144,12 +143,14 @@ img {
 }
 
 .section {
-  padding: 90px 0;
+  padding-top: 90px;
+  padding-bottom: 90px;
   position: relative;
 }
 @media (max-width: 991px){
  .section {
-    padding: 60px 0;
+    padding-top: 60px;
+    padding-bottom: 0px;
   } 
 }
 @media (max-width: 767px){
@@ -1543,14 +1544,20 @@ div#particles-box {
   border: 1px solid #ddd;
 }
 
+
 .skills {
-    margin-right: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+ 
+  margin-left: 75px;
+  margin-right: 75px;
 }
 
-.skill-left h3 {
+.skill-left h2 {
   color: #292929;
   font-weight: 600;
   margin: 0 0 15px;
+  text-align: center;
   font-size: 20px;
   letter-spacing: 1px;
 }
@@ -1575,7 +1582,7 @@ div#particles-box {
   color: #222;
   margin: 0;
   padding: 0 0 6px;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 500;
   text-transform: uppercase;
 }
