@@ -1553,7 +1553,9 @@ div#particles-box {
   margin-left: 75px;
   margin-right: 75px;
 }
-
+.skills h2 {
+  text-align: center;
+}
 .ecs {
   margin-top: 50px;
   margin-bottom: 50px;
