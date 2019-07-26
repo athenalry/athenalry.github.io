@@ -4,7 +4,6 @@
 	width: 352px;
 	height: 500px;
 	will-change: background-position;
-	
 	animation-name: fly-cycle;
 	animation-duration: 1s;
 	animation-delay: -0.5s;
