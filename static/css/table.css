@@ -1,7 +1,7 @@
 
 .col-one{
   width: 20%;
-  padding: 3px;
+  padding: 5px;
 }
 .col-two{
   width: 40%;
@@ -229,3 +229,11 @@
     background-color: #cccccc;
   }
   
+#awards {
+  background: #E565B8;
+  
+  color:white;
+}
+  #awards h2{
+    text-align: center
+  }
