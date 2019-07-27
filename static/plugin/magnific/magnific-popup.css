@@ -202,7 +202,6 @@ button::-moz-focus-inner {
 .mfp-arrow-left {
   left: 0; }
   .mfp-arrow-left:after {
-    border-right: 17px solid #FFF;
     margin-left: 31px; }
   .mfp-arrow-left:before {
     margin-left: 25px;
