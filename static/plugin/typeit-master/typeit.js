@@ -15,18 +15,18 @@
 
 window.TypeItDefaults = {
   strings: [],
-  speed: 100,
+  speed: 0,
   deleteSpeed: undefined,
   lifeLike: true,
   cursor: true,
   cursorChar: "|",
-  cursorSpeed: 1000,
+  cursorSpeed: 100000,
   breakLines: true,
-  startDelay: 250,
+  startDelay: 0,
   startDelete: false,
-  nextStringDelay: 750,
+  nextStringDelay: 0,
   loop: false,
-  loopDelay: 750,
+  loopDelay: 0,
   html: true,
   autoStart: true,
   callback: function callback() {}

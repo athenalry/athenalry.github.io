@@ -215,7 +215,7 @@ Copyright (c) 2018 - mital_04
 
     KEIRA.mTypeIt = function() {
         new TypeIt('#type-it', {
-            speed: 200,
+            speed: 100,
             loop:true,
             strings: [
               'Software Engineer',
