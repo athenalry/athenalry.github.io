@@ -95,7 +95,7 @@ Table of contents
   height: 50px;
   border-radius: 50%;
   border: 10px solid #e8e8e8;
-  border-top: 10px solid #292929;
+  border-top: 10px solid #E565B8;
   -webkit-animation: rotate 1.2s infinite linear;
   animation: rotate 1.2s infinite linear;
   overflow: hidden;
@@ -1553,7 +1553,7 @@ div#particles-box {
   margin-left: 50px;
   margin-right: 50px;
 }
-.skills h2 {
+.skills h2, h5{
   text-align: center;
 }
 .ecs {
