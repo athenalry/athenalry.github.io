@@ -50,11 +50,19 @@ Table of contents
   padding-right: 10px;
   text-align: left;
 }
+
 .social-icons-negative{
   color: #ffffff;
   padding-left: 3px;
   padding-right: 3px;
   padding-top: 10px;
+
+}
+
+.social-icons-negative i:focus{
+  
+  color:#E565B8;
+  background:#E565B8;
   
 }
 .social-icons-meow{
@@ -2207,7 +2215,6 @@ div#particles-box {
     padding: 30px 0;
   }
 }
-
 
 
 /*-----------------------------------------
