@@ -14,7 +14,7 @@
     text-decoration: underline
   }
   #content {
-    padding: 40px;
+    padding: 5%;
     padding-bottom:-20px;
     text-align: center;
     background: #E565B8;
@@ -87,13 +87,10 @@
     top: 0;
   }
   .timeline .event:before {
-    left: -237.5px;
     color: white;
-    content: attr(data-date);
-    text-align: right;
     font-weight: 200;
     font-size: 1.09em;
-    min-width: 120px;
+    width: 0px;
     font-family: 'Poppins', sans-serif;
   }
   .timeline .event:after {
