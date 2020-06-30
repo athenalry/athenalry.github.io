@@ -2217,7 +2217,15 @@ div#particles-box {
   }
 }
 
-
+ul {
+  padding: 0
+}
+@media(min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: block;
+    width: 100%;
+  }
+}
 /*-----------------------------------------
 *  Background Properties
 -----------------------------------------*/
