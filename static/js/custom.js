@@ -220,7 +220,8 @@ Copyright (c) 2018 - mital_04
             strings: [
               'Software Engineer',
               'Innovator',
-              'Pioneer'
+              'Pioneer',
+              'Foodie'
             ],
             breakLines: false
         }); 

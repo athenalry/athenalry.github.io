@@ -158,7 +158,7 @@ img {
 
 .section {
   padding-top: 90px;
-  padding-bottom: 90px;
+  padding-bottom: 45px;
   position: relative;
 }
 @media (max-width: 991px){
@@ -2225,6 +2225,11 @@ ul {
     display: block;
     width: 100%;
   }
+}
+#projects {
+  background: #E565B8;
+  padding-top: 25px;
+  padding-bottom: 75px;
 }
 /*-----------------------------------------
 *  Background Properties
